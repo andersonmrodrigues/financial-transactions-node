@@ -20,6 +20,9 @@ class TransactionsRepository {
   }
 
   public all(): Transaction[] {
+    if (!this.transactions) {
+      throw Error('No transactions');
+    }
     return this.transactions;
   }
 
