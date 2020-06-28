@@ -1,12 +1,9 @@
-<img alt="GoStack" src=".github/header-desafios.png" />
-
 <h3 align="center">
   Desafio 05: Primeiro projeto Node.js
 </h3>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>
 </p>
 
 ## :rocket: Sobre o desafio
@@ -72,10 +69,6 @@ Para esse desafio temos os seguintes testes:
 - **`should be able to list the transactions`**: Para que esse teste passe, sua aplicação deve permitir que seja retornado um objeto contendo todas as transações junto ao balanço de income, outcome e total das transações que foram criadas até o momento.
 
 - **`should not be able to create outcome transaction without a valid balance`**: Para que esse teste passe, sua aplicação não deve permitir que uma transação do tipo `outcome` extrapole o valor total que o usuário tem em caixa, retornando uma resposta com código HTTP 400 e uma mensagem de erro no seguinte formato: `{ error: string }`
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
